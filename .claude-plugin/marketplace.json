@@ -7,13 +7,13 @@
     "name": "namtoki",
     "url": "https://github.com/namtoki"
   },
-  "plugins": {
-    "evt": {
+  "plugins": [
+    {
       "name": "evt",
       "description": "Manage words, practice with quizzes, and roleplay conversations",
       "source": "./",
       "category": "education",
       "tags": ["english", "vocabulary", "learning", "flashcards", "anki", "roleplay"]
     }
-  }
+  ]
 }
