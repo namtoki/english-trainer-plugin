@@ -4,14 +4,18 @@
 
 ## 処理フロー
 
-### 1. words/ ディレクトリ配下の全ファイルを読み込み
+### 1. words/ ディレクトリから登録済み単語を取得
 
-以下のファイルを全て Read してください:
-- `words/02_verb/*.md`
-- `words/03_adjective_noun/*.md`
-- `words/04_adverb/*.md`
-- `words/cliche.md`
-- `words/framework.md`
+Grep ツールを使って登録済みの単語を効率的に取得してください:
+
+```
+pattern: ^[ \t]*- `[^`]+`
+path: words/
+glob: *.md
+output_mode: content
+```
+
+これにより全ファイルを Read せずに、単語行のみを取得できます。
 
 ### 2. 引数に応じた処理
 

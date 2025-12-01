@@ -4,63 +4,57 @@
 
 ---
 
-## 共通フォーマット
+## フォーマット
 
-H2 セクションで分類し、各行に以下の情報を記載:
-
-```md
-- `単語/表現` /発音記号/ ([Register] 日本語訳) 例文
-  - `類義語` /発音記号/ ([Register] 日本語訳) 例文
+```
+- `word` /pronunciation/            ([register] 訳)                 例文
 ```
 
-### Register (使用場面)
+### 各要素の詳細
 
-- `[Formal]` - フォーマル・ビジネス
-- `[Neutral]` - 一般的
-- `[Casual]` - カジュアル・口語
+#### word
+- **format**: 英単語を ` で挟む
+- **position**: `-` から 1 つスペースを空けて続けて置く
 
----
+#### pronunciation
+- **format**: IPA 方式の発音記号を `/` で挟む
+- **position**: word から 1 つスペースを空けて続けて置く
 
-## 動詞の例 (words/02_verb/)
+#### ()
+- **format**: register と訳を `()` で挟む
+- **position**: 行左端から数えて **37 文字目** に `(` を置く。pronunciation から `(` までの間はスペースで埋める
 
-```md
-## Sound Action
-- `shout` /ʃaʊt/                    ([Neutral] 叫ぶ、大声で言う)    He shouted across the street.
-  - `yell` /jel/                    ([Casual] 叫ぶ、怒鳴る)         The coach yelled at the players.
-  - `scream` /skriːm/               ([Neutral] 叫ぶ、悲鳴を上げる)  He screamed for help.
+##### register
+- **format**: 以下のいずれかを `[]` で挟む
+  - `Casual` - 友人などと口語でよく用いられる
+  - `Formal` - 会社の上司、取引先、初めて会う人と口語で用いられる
+  - `Neutral` - Casual にも Formal にも口語で用いられる
+  - `Polite` - 礼儀正しい口語で用いられる
+  - `Writing` - 口語ではあまり用いられず、文章で主に用いられる
+- **position**: `(` の直後、スペースを入れずに続けて置く
+
+##### 訳
+- **format**: word の訳を日本語で **10文字以内** で書く
+- **position**: register から 1 つスペースを空けて続けて置く
+
+#### 例文
+- **format**: 口語でよく用いられる例文を一つ書く（register が Writing の場合は文章でよく用いられる例文）
+- **position**: 行左端から数えて **60 文字目** に例文を開始。`)` から例文までの間はスペースで埋める
+
+### 例
+
+```
+- `hard` /hɑːd/                     ([Neutral] 努力を要する難しさ)  The test was hard.
 ```
 
----
+### 類義語のインデント
 
-## 定型表現の例 (words/cliche.md)
+類義語は 2 スペースでインデントして記載:
 
-```md
-## Greetings
-- `Good morning.`                   ([Formal] おはようございます)     Good morning, everyone.
-- `How's it going?`                 ([Casual] 調子どう?)              Hey, how's it going?
-- `Nice to meet you.`               ([Neutral] はじめまして)          Nice to meet you, Mr. Smith.
-
-## Gratitude
-- `Thank you so much.`              ([Neutral] 本当にありがとう)       Thank you so much for your help.
-- `I really appreciate it.`         ([Formal] 本当に感謝します)        I really appreciate your support.
 ```
-
----
-
-## フレームワーク表現の例 (words/framework.md)
-
-```md
-## Reason & Explanation
-- `S V in the sense that S V`       ([Formal] SがVするという意味で)   It's correct in the sense that it follows the rules.
-- `The reason why S V is that S V`  ([Neutral] SがVする理由は...)      The reason why I'm late is that I missed the train.
-
-## Contrast
-- `On the one hand S V, on the other hand S V`  ([Formal] 一方では...他方では)  On the one hand it's expensive, on the other hand it's high quality.
-- `While S V, S V`                  ([Neutral] ...する一方で)          While I agree with the idea, I have some concerns.
-
-## Addition
-- `In addition to N, S V`           ([Formal] Nに加えて)               In addition to English, she speaks French.
-- `Not only S V but also S V`       ([Neutral] ...だけでなく...も)      Not only did he apologize but also offered compensation.
+- `shout` /ʃaʊt/                    ([Neutral] 叫ぶ)                He shouted across the street.
+  - `yell` /jel/                    ([Casual] 怒鳴る)               The coach yelled at the players.
+  - `scream` /skriːm/               ([Neutral] 悲鳴を上げる)        He screamed for help.
 ```
 
 ---

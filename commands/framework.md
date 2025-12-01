@@ -6,7 +6,13 @@
 
 ### 1. 既存データの読み込み
 
-`words/framework.md` を Read してください。
+Grep ツールを使って登録済みの表現を取得してください:
+
+```
+pattern: ^[ \t]*- `[^`]+`
+path: words/framework.md
+output_mode: content
+```
 
 ### 2. 引数に応じた処理
 
