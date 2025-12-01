@@ -11,7 +11,7 @@
     {
       "name": "english-vocabulary-trainer",
       "description": "Manage words, practice with quizzes, and roleplay conversations",
-      "source": ".",
+      "source": "./",
       "category": "education",
       "tags": ["english", "vocabulary", "learning", "flashcards", "anki", "roleplay"]
     }
