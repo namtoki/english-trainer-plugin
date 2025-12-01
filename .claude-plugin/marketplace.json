@@ -9,7 +9,7 @@
   },
   "plugins": [
     {
-      "name": "english-vocabulary-trainer",
+      "name": "evt",
       "description": "Manage words, practice with quizzes, and roleplay conversations",
       "source": "./",
       "category": "education",

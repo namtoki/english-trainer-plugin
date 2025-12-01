@@ -1,5 +1,5 @@
 {
-  "name": "english-vocabulary-trainer",
+  "name": "evt",
   "version": "1.0.0",
   "description": "English vocabulary learning plugin for Claude Code. Manage words, practice with quizzes, and roleplay conversations.",
   "author": {
