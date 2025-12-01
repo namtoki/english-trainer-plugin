@@ -9,7 +9,7 @@
 Grep ツールを使って登録済みの単語を効率的に取得してください:
 
 ```
-pattern: ^[ \t]*- `[^`]+`
+pattern: ^[ \t]*- `.+`
 path: words/
 glob: *.md
 output_mode: content

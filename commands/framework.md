@@ -9,7 +9,7 @@
 Grep ツールを使って登録済みの表現を取得してください:
 
 ```
-pattern: ^[ \t]*- `[^`]+`
+pattern: ^[ \t]*- `.+`
 path: words/framework.md
 output_mode: content
 ```

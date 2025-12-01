@@ -34,7 +34,7 @@
 Grep ツールを使って学習済みの表現を効率的に取得してください:
 
 ```
-pattern: ^[ \t]*- `[^`]+`
+pattern: ^[ \t]*- `.+`
 path: words/
 glob: *.md
 output_mode: content
