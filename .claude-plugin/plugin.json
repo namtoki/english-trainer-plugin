@@ -2,7 +2,7 @@
   "name": "english-vocabulary-trainer",
   "version": "1.0.0",
   "description": "English vocabulary learning plugin for Claude Code. Manage words, practice with quizzes, and roleplay conversations.",
-  "author": "tanamura",
+  "author": "namtoki",
   "license": "MIT",
   "repository": "https://github.com/namtoki/english-vocabulary-trainer",
   "keywords": [
