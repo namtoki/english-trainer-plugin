@@ -61,6 +61,10 @@
 
 ## 書き込み先ファイル一覧
 
+### フレームワーク (words/01_framework/)
+- `cliche.md` - 定型表現
+- `that_clause.md` - 構文パターン
+
 ### 動詞 (words/02_verb/)
 - `0_AUX.md` - 助動詞のような働きの動詞
 - `1_SVC.md` - SVC 文型の動詞
@@ -92,7 +96,3 @@
 - `4_Concession.md` - 譲歩を表す副詞
 - `5_Feeling.md` - 主観による情報を補足する副詞
 - `6_When_Where.md` - 時間、場所を補足する副詞
-
-### その他 (words/01_framework/)
-- `cliche.md` - 定型表現
-- `framework.md` - 構文パターン
