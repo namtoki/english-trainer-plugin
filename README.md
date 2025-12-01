@@ -5,7 +5,7 @@ Claude Code Plugin for English vocabulary learning. Manage words, practice with 
 ## Installation
 
 ```bash
-/plugin install https://github.com/YOUR_USERNAME/english-vocabulary-trainer
+/plugin install https://github.com/namtoki/english-vocabulary-trainer
 ```
 
 ## Commands
